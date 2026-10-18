@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PDFProgram</StartupObject>
+    <StartupObject>MainProgramSystem.MainProgram</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,13 @@
     <Compile Include="1.FieldsBasics.cs" />
     <Compile Include="3.ClassArrayandPublicDemo.cs" />
     <Compile Include="2.PropertiesDemo.cs" />
+    <Compile Include="4.ConstructorDemo.cs" />
+    <Compile Include="5.ConstReadOnlydemo.cs" />
+    <Compile Include="NameSpaces\1.AllFiles.cs" />
+    <Compile Include="NameSpaces\2.ExcelFiles.cs" />
+    <Compile Include="NameSpaces\3.PPTFiles.cs" />
+    <Compile Include="NameSpaces\4.WordFiles.cs" />
+    <Compile Include="NameSpaces\5.MainProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
