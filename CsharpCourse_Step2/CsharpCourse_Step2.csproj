@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>RemotingSystem.Program</StartupObject>
+    <StartupObject>VehicleConfigurationSystem.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,6 +55,8 @@
     <Compile Include="7.Inheritence\1.InheritenceDemo.cs" />
     <Compile Include="7.Inheritence\Interface-demo.cs" />
     <Compile Include="7.Inheritence\Interface-live-example.cs" />
+    <Compile Include="8.Abstraction\1.Abstraction-demo.cs" />
+    <Compile Include="8.Abstraction\2.Abstraction-live-demo.cs" />
     <Compile Include="NameSpaces\1.AllFiles.cs" />
     <Compile Include="NameSpaces\2.ExcelFiles.cs" />
     <Compile Include="NameSpaces\3.PPTFiles.cs" />
