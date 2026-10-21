@@ -6,10 +6,15 @@ namespace Family{
     {
         public string ParentName {  get; set; }
 
+        public Parent()
+        {
+            Console.WriteLine("This is Parent Class Constructor without Parameter");
+        }
+
         public Parent(string name, int age)
 
         {
-            Console.WriteLine("This is Parent Class Constructor");
+            Console.WriteLine("This is Parent Class Constructor with name and age parameter");
 
             Console.WriteLine($"Child name i.e is {name} age is {age}");
         }
@@ -54,11 +59,11 @@ namespace Family{
         {
             Child child = new Child("Jr.John", 18);
 
-            child.ChildName = "Jr.Bahu";
-            child.ParentName = "Bahu";
+        //    child.ChildName = "Jr.Bahu";
+        //    child.ParentName = "Bahu";
 
-            child.ChildMessage();
-            child.ParentMessage();
+        //    child.ChildMessage();
+        //    child.ParentMessage();
         }
     }
 }

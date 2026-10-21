@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Family.Program</StartupObject>
+    <StartupObject>RemotingSystem.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,8 @@
     <Compile Include="5.ConstReadOnlydemo.cs" />
     <Compile Include="6.StaticClassDemo.cs" />
     <Compile Include="7.Inheritence\1.InheritenceDemo.cs" />
+    <Compile Include="7.Inheritence\Interface-demo.cs" />
+    <Compile Include="7.Inheritence\Interface-live-example.cs" />
     <Compile Include="NameSpaces\1.AllFiles.cs" />
     <Compile Include="NameSpaces\2.ExcelFiles.cs" />
     <Compile Include="NameSpaces\3.PPTFiles.cs" />
