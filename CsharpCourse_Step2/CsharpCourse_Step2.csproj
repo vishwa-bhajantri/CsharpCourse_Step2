@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>VehicleConfigurationSystem.Program</StartupObject>
+    <StartupObject>EmployeeSalarySystem_RunTimePolymorphism.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -57,6 +57,9 @@
     <Compile Include="7.Inheritence\Interface-live-example.cs" />
     <Compile Include="8.Abstraction\1.Abstraction-demo.cs" />
     <Compile Include="8.Abstraction\2.Abstraction-live-demo.cs" />
+    <Compile Include="9.Polymorphism\1.Compile-time.cs" />
+    <Compile Include="9.Polymorphism\3.Run-timeWithVirtual.cs" />
+    <Compile Include="9.Polymorphism\2.Run-time.cs" />
     <Compile Include="NameSpaces\1.AllFiles.cs" />
     <Compile Include="NameSpaces\2.ExcelFiles.cs" />
     <Compile Include="NameSpaces\3.PPTFiles.cs" />
